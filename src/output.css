@@ -630,6 +630,12 @@
   .bottom-\[1\] {
     bottom: 1;
   }
+  .bottom-\[9\] {
+    bottom: 9;
+  }
+  .bottom-\[9r\] {
+    bottom: 9r;
+  }
   .bottom-\[20rem\] {
     bottom: 20rem;
   }
@@ -644,12 +650,6 @@
   }
   .bottom-\[2rem\] {
     bottom: 2rem;
-  }
-  .bottom-\[9\] {
-    bottom: 9;
-  }
-  .bottom-\[9r\] {
-    bottom: 9r;
   }
   .bottom-\[10\] {
     bottom: 10;
@@ -807,12 +807,6 @@
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
-  .mt-\[10\] {
-    margin-top: 10;
-  }
-  .mt-\[1\] {
-    margin-top: 1;
-  }
   .mt-\[2re\] {
     margin-top: 2re;
   }
@@ -828,17 +822,23 @@
   .mt-\[5\] {
     margin-top: 5;
   }
-  .mt-\[5rem\] {
-    margin-top: 5rem;
-  }
   .mt-\[6rem\] {
     margin-top: 6rem;
   }
   .mt-\[7rem\] {
     margin-top: 7rem;
   }
+  .mt-\[10\] {
+    margin-top: 10;
+  }
   .mt-\[10re\] {
     margin-top: 10re;
+  }
+  .mt-\[1\] {
+    margin-top: 1;
+  }
+  .mt-\[5rem\] {
+    margin-top: 5rem;
   }
   .mt-\[10rem\] {
     margin-top: 10rem;
@@ -927,33 +927,6 @@
   .h-\[5px\] {
     height: 5px;
   }
-  .h-\[29rem\] {
-    height: 29rem;
-  }
-  .h-\[300px\] {
-    height: 300px;
-  }
-  .h-\[30rem\] {
-    height: 30rem;
-  }
-  .h-\[3rem\] {
-    height: 3rem;
-  }
-  .h-\[500px\] {
-    height: 500px;
-  }
-  .h-\[5rem\] {
-    height: 5rem;
-  }
-  .h-\[10\] {
-    height: 10;
-  }
-  .h-\[10rem\] {
-    height: 10rem;
-  }
-  .h-\[1\] {
-    height: 1;
-  }
   .h-\[7px\] {
     height: 7px;
   }
@@ -968,9 +941,6 @@
   }
   .h-\[20px\] {
     height: 20px;
-  }
-  .h-\[20rem\] {
-    height: 20rem;
   }
   .h-\[25\.5rem\] {
     height: 25.5rem;
@@ -999,14 +969,14 @@
   .h-\[28rem\] {
     height: 28rem;
   }
+  .h-\[29rem\] {
+    height: 29rem;
+  }
   .h-\[2rem\] {
     height: 2rem;
   }
   .h-\[30px\] {
     height: 30px;
-  }
-  .h-\[700px\] {
-    height: 700px;
   }
   .h-\[70px\] {
     height: 70px;
@@ -1017,14 +987,44 @@
   .h-\[90px\] {
     height: 90px;
   }
-  .h-\[1000px\] {
-    height: 1000px;
-  }
   .h-\[100px\] {
     height: 100px;
   }
   .h-\[170px\] {
     height: 170px;
+  }
+  .h-\[300px\] {
+    height: 300px;
+  }
+  .h-\[30rem\] {
+    height: 30rem;
+  }
+  .h-\[3rem\] {
+    height: 3rem;
+  }
+  .h-\[500px\] {
+    height: 500px;
+  }
+  .h-\[5rem\] {
+    height: 5rem;
+  }
+  .h-\[10\] {
+    height: 10;
+  }
+  .h-\[10rem\] {
+    height: 10rem;
+  }
+  .h-\[1\] {
+    height: 1;
+  }
+  .h-\[20rem\] {
+    height: 20rem;
+  }
+  .h-\[700px\] {
+    height: 700px;
+  }
+  .h-\[1000px\] {
+    height: 1000px;
   }
   .h-\[px\] {
     height: px;
@@ -1137,51 +1137,6 @@
   .w-\[32\%\] {
     width: 32%;
   }
-  .w-\[50\%\] {
-    width: 50%;
-  }
-  .w-\[50px\] {
-    width: 50px;
-  }
-  .w-\[53\%\] {
-    width: 53%;
-  }
-  .w-\[60\%\] {
-    width: 60%;
-  }
-  .w-\[65\%\] {
-    width: 65%;
-  }
-  .w-\[70\%\] {
-    width: 70%;
-  }
-  .w-\[75\%\] {
-    width: 75%;
-  }
-  .w-\[80\%\] {
-    width: 80%;
-  }
-  .w-\[80\] {
-    width: 80;
-  }
-  .w-\[85\%\] {
-    width: 85%;
-  }
-  .w-\[8\] {
-    width: 8;
-  }
-  .w-\[90\%\] {
-    width: 90%;
-  }
-  .w-\[95\%\] {
-    width: 95%;
-  }
-  .w-\[100px\] {
-    width: 100px;
-  }
-  .w-\[10px\] {
-    width: 10px;
-  }
   .w-\[35\%\] {
     width: 35%;
   }
@@ -1203,8 +1158,20 @@
   .w-\[47\%\] {
     width: 47%;
   }
+  .w-\[50\%\] {
+    width: 50%;
+  }
   .w-\[50\] {
     width: 50;
+  }
+  .w-\[50px\] {
+    width: 50px;
+  }
+  .w-\[53\%\] {
+    width: 53%;
+  }
+  .w-\[60\%\] {
+    width: 60%;
   }
   .w-\[60\] {
     width: 60;
@@ -1212,17 +1179,50 @@
   .w-\[60px\] {
     width: 60px;
   }
+  .w-\[65\%\] {
+    width: 65%;
+  }
+  .w-\[70\%\] {
+    width: 70%;
+  }
   .w-\[70\] {
     width: 70;
+  }
+  .w-\[75\%\] {
+    width: 75%;
+  }
+  .w-\[80\%\] {
+    width: 80%;
+  }
+  .w-\[80\] {
+    width: 80;
+  }
+  .w-\[85\%\] {
+    width: 85%;
   }
   .w-\[85\] {
     width: 85;
   }
+  .w-\[8\] {
+    width: 8;
+  }
+  .w-\[90\%\] {
+    width: 90%;
+  }
   .w-\[94\%\] {
     width: 94%;
   }
+  .w-\[95\%\] {
+    width: 95%;
+  }
   .w-\[95\] {
     width: 95;
+  }
+  .w-\[100px\] {
+    width: 100px;
+  }
+  .w-\[10px\] {
+    width: 10px;
   }
   .w-\[98\%\] {
     width: 98%;
@@ -1667,6 +1667,9 @@
   .p-10 {
     padding: calc(var(--spacing) * 10);
   }
+  .p-\[2rem\] {
+    padding: 2rem;
+  }
   .px-0 {
     padding-inline: calc(var(--spacing) * 0);
   }
@@ -1742,6 +1745,9 @@
   .px-\[0\.35rem\] {
     padding-inline: 0.35rem;
   }
+  .px-\[0\.60rem\] {
+    padding-inline: 0.60rem;
+  }
   .px-\[0\.3256rem\] {
     padding-inline: 0.3256rem;
   }
@@ -1771,9 +1777,6 @@
   }
   .px-\[0\.3rem\] {
     padding-inline: 0.3rem;
-  }
-  .px-\[0\.60rem\] {
-    padding-inline: 0.60rem;
   }
   .px-\[0\.6358rem\] {
     padding-inline: 0.6358rem;
@@ -1895,6 +1898,18 @@
   .pt-\[1\.5rem\] {
     padding-top: 1.5rem;
   }
+  .pt-\[1\.8rem\] {
+    padding-top: 1.8rem;
+  }
+  .pt-\[1\.rem\] {
+    padding-top: 1.rem;
+  }
+  .pt-\[1rem\] {
+    padding-top: 1rem;
+  }
+  .pt-\[2rem\] {
+    padding-top: 2rem;
+  }
   .pt-\[4re\] {
     padding-top: 4re;
   }
@@ -1903,6 +1918,9 @@
   }
   .pt-\[5rem\] {
     padding-top: 5rem;
+  }
+  .pt-\[rem\] {
+    padding-top: rem;
   }
   .pr-1 {
     padding-right: calc(var(--spacing) * 1);
@@ -1924,6 +1942,21 @@
   }
   .pb-24 {
     padding-bottom: calc(var(--spacing) * 24);
+  }
+  .pb-\[2\.3rem\] {
+    padding-bottom: 2.3rem;
+  }
+  .pb-\[2\.5\] {
+    padding-bottom: 2.5;
+  }
+  .pb-\[2\.5rem\] {
+    padding-bottom: 2.5rem;
+  }
+  .pb-\[2\.rem\] {
+    padding-bottom: 2.rem;
+  }
+  .pb-\[2rem\] {
+    padding-bottom: 2rem;
   }
   .pl-0 {
     padding-left: calc(var(--spacing) * 0);
@@ -2002,15 +2035,6 @@
   .text-\[1\.5rem\] {
     font-size: 1.5rem;
   }
-  .text-\[1\.65rem\] {
-    font-size: 1.65rem;
-  }
-  .text-\[1\.67rem\] {
-    font-size: 1.67rem;
-  }
-  .text-\[1\.6rem\] {
-    font-size: 1.6rem;
-  }
   .text-\[1\.7rem\] {
     font-size: 1.7rem;
   }
@@ -2019,6 +2043,15 @@
   }
   .text-\[1\.9rem\] {
     font-size: 1.9rem;
+  }
+  .text-\[1\.65rem\] {
+    font-size: 1.65rem;
+  }
+  .text-\[1\.67rem\] {
+    font-size: 1.67rem;
+  }
+  .text-\[1\.6rem\] {
+    font-size: 1.6rem;
   }
   .text-\[1\.125rem\] {
     font-size: 1.125rem;
